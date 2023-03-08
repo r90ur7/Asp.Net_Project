@@ -12,6 +12,12 @@ namespace Asp.Net_Project.Controllers
         {
             return View();
         }
+        public ActionResult Test()
+        {
+            ViewBag.Message = "Test Prview.";
+
+            return View();
+        }
 
         public ActionResult About()
         {
@@ -22,7 +28,7 @@ namespace Asp.Net_Project.Controllers
 
         public ActionResult Contact()
         {
-            ViewBag.Message = "Your contact page.";
+            ViewBag.Message = "Sua Página de Contato";
 
             return View();
         }
